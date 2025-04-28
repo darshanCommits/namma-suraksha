@@ -1,3 +1,5 @@
+venv/
+tmp/
 documents/
 *.docx
 *.pdf
