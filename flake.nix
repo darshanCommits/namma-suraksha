@@ -27,7 +27,7 @@
           pkgs.libz
         ]}:$LD_LIBRARY_PATH
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-        export DJANGO_SETTINGS_MODULE=src.crime_project.settings
+        export DJANGO_SETTINGS_MODULE=src.settings
 
         if [ -d "./venv" ]; then
           source ./venv/bin/activate
